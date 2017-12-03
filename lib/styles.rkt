@@ -13,21 +13,36 @@
     #:font-size 1.3em
     #:font-family helvetica
     #:line-height 1.4]
+   
    [h1
-    #:font-size 1.8em
-    #:margin (0.5em 0)]
+    #:font-size 1.6em
+    #:margin (0.2em 0)]
+   
    [pre
     #:font-size 1em
     #:font-family "courier new"
-    #:margin (0.2em 0)]
+    #:margin (0.3em 0)]
+
+   [code
+    #:font-family "courier new"]
+   
    [a
     #:color \#133773
     #:text-decoration none]
+
+   [p
+    #:margin (0.5em 0)]
+
+   [.center
+    #:text-align center]
+   
    [.logo
     #:max-width 20em
     #:margin (0.5em 0)]
+   
    [.header
     #:text-align center]
+   
    [.tagline
     #:text-align center
     [pre
