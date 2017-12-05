@@ -12,10 +12,5 @@
     'src: "/images/maybevoid-logo.png")
    (div
     'class: "tagline"
-    @pre{Maybe Void =@sub{type} Just Void | Nothing =@sub{type} ()})
-   @div['class: "navigation"]{
-     [ @a['href: "/"]{Home} |
-       @a['href: "/blog"]{Blog} |
-       @a['href: "/about"]{About}
-     ]
-   }))
+    @pre{ Maybe Void = Just Void | Nothing = Either Void () = @b{0} + @b{1} = @b{1} = ()})
+   ))

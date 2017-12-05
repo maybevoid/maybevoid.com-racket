@@ -7,11 +7,11 @@
 (define styles
   (css-expr
    [body
-    #:max-width 40em
+    #:max-width 50em
     #:margin (0 auto)
     #:color \#333333
-    #:font-size 1.3em
-    #:font-family helvetica
+    #:font-size 1em
+    #:font-family ("Source Sans Pro")
     #:line-height 1.4]
    
    [h1
@@ -20,19 +20,32 @@
    
    [pre
     #:font-size 1em
-    #:font-family "courier new"
+    #:font-family "Source Code Pro"
     #:margin (0.3em 0)]
 
    [code
-    #:font-family "courier new"]
+    #:font-size 0.9em
+    #:font-family "Source Code Pro"
+    #:background \#eeeeee]
    
    [a
     #:color \#133773
-    #:text-decoration none]
+    #:text-decoration underline]
 
    [p
     #:margin (0.5em 0)]
 
+   [.sidebar
+    #:flex 1
+    #:padding 0.75em]
+
+   [.main
+    #:flex 5
+    #:padding 0.75em]
+
+   [.main-container
+    #:display flex]
+   
    [.center
     #:text-align center]
    
