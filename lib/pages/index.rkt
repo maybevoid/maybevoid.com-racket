@@ -11,14 +11,12 @@
   (html
    (head
     @title{Maybe Void}
-    (stylesheet "/styles.css")
-    (stylesheet "https://fonts.googleapis.com/css?family=Source+Sans+Pro|Source+Code+Pro"))
+    (stylesheet "/styles/index.css")
+    (stylesheet "/styles/font.css"))
    (body
     header
     (hr)
     (div 'class: "main-container"
-     (div 'class: "sidebar"
-          sidebar)
      (div
       'class: "main"
       @h1['class: "center"]{What is Maybe Void?}
@@ -46,4 +44,6 @@
  @code{@b{0} + @b{1}}, which does exactly the same thing as elementary school algebra
  and we are left with the top type @code{@b{1}}, or just @code{()} in Haskell.
  })
-      ))))
+      
+     sidebar)
+    )))

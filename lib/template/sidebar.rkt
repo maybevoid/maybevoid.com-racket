@@ -6,7 +6,9 @@
 
 (define sidebar
   (div 
-   'class: "navigation"
+   'class: "sidebar"
+   @h2{Navigation}
+   (hr)
    (ul
     (li
      @a['href: "/"]{Home})

@@ -22,4 +22,4 @@
 
 (define (write-pages dir-path)
   (write-page index-doc (build-path dir-path "index.html"))
-  (write-stylesheet main-styles (build-path dir-path "styles.css")))
+  (write-stylesheet main-styles (build-path dir-path "styles/index.css")))
