@@ -7,12 +7,21 @@
 (define styles
   (css-expr
    [body
-    #:max-width 50em
-    #:margin (0 auto)
-    #:color \#333333
+    #:height 100%
+    #:margin 0
+    #:background-color \#040440
     #:font-size 1em
     #:font-family ("Source Sans Pro")
     #:line-height 1.5]
+
+   [.body
+    #:min-height 100%
+    #:max-width 50em
+    #:margin (0 auto)
+    #:color \#333333
+    #:background-color \#ffffff
+    #:display flex
+    #:flex-direction column]
    
    [h1
     #:font-size 1.6em
@@ -39,6 +48,9 @@
    [p
     #:margin (0.5em 0)]
 
+   [hr
+    #:width 90%]
+
    [.sidebar
     #:flex (1 0 5em)
     #:padding 0.75em
@@ -53,11 +65,14 @@
     #:flex (5 0 20em)
     #:padding 0.75em]
 
+   [.body-center
+    #:flex 1]
+   
    [.main-container
     #:display flex
     #:flex-direction row
     #:flex-wrap wrap
-    #:width 100%]
+    #:padding (0 2em)]
    
    [.center
     #:text-align center]
@@ -75,4 +90,13 @@
      #:font-size 0.8em]
     [sub
      #:font-size 0.6em]]
+
+   [.footer
+    #:padding (0.5em 3em)
+    #:text-align right
+    #:font-size 0.8em
+    [p
+     #:margin 0]
+    [.cc-logo
+     #:height 1.3em]]
    ))
