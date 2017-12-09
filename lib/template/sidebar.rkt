@@ -15,4 +15,6 @@
     (li
      @a['href: "/blog"]{Blog})
     (li
+     @a['href: "/what-is-maybevoid.html"]{What is Maybe Void?})
+    (li
      @a['href: "/about"]{About}))))

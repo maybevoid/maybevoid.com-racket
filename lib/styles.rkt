@@ -16,7 +16,7 @@
 
    [.body
     #:min-height 100%
-    #:max-width 50em
+    #:max-width 55em
     #:margin (0 auto)
     #:color \#333333
     #:background-color \#ffffff
@@ -52,8 +52,10 @@
     #:width 90%]
 
    [.sidebar
-    #:flex (1 0 5em)
+    #:flex (1 0 10em)
     #:padding 0.75em
+    [h2
+     #:text-align center]
     [ul
      #:padding (0 0.5em)
      #:list-style-position inside
@@ -62,7 +64,7 @@
      #:padding 0.5em]]
 
    [.main
-    #:flex (5 0 20em)
+    #:flex (5 0 25em)
     #:padding 0.75em]
 
    [.body-center
