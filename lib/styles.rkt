@@ -37,6 +37,7 @@
     #:margin (0.3em 0)]
 
    [code
+    #:padding (0 0.3em)
     #:font-size 0.9em
     #:font-family "Source Code Pro"
     #:background \#f3f3f3]
@@ -61,11 +62,12 @@
      #:list-style-position inside
      #:list-style-type square]
     [a
-     #:padding 0.5em]]
+     #:padding 0.5em
+     #:font-weight 600]]
 
    [.main
     #:flex (5 0 25em)
-    #:padding 0.75em]
+    #:padding (0 0.75em)]
 
    [.body-center
     #:flex 1]
@@ -101,4 +103,27 @@
      #:margin 0]
     [.cc-logo
      #:height 1.3em]]
+
+   [.divisor
+    #:border-style dashed
+    #:width 30%
+    #:margin (1.5em auto)]
+
+   [.navigation
+    #:display flex
+    #:text-align center
+    #:padding (0.5em 0)
+    [a
+     #:flex 1
+     #:font-weight 600]]
+
+   [.featured-topics
+    [ul
+     #:list-style none
+     #:display flex
+     #:flex-wrap wrap
+     #:padding 0
+     #:margin 0]
+    [li
+     #:padding 0.5em]]
    ))
