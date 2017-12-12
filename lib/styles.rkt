@@ -25,11 +25,13 @@
    
    [h1
     #:font-size 1.6em
-    #:margin (0.2em 0)]
+    #:font-family ("Source Serif Pro")
+    #:margin (0.5em 0 0 0)]
    
    [h2
     #:font-size 1.4em
-    #:margin (0.2em 0)]
+    #:font-family ("Source Serif Pro")
+    #:margin (0.3em 0 0 0)]
    
    [pre
     #:font-size 1em
@@ -44,6 +46,9 @@
    
    [a
     #:color \#133773
+    #:text-decoration none]
+
+   [a:hover
     #:text-decoration underline]
 
    [p
@@ -62,11 +67,10 @@
      #:list-style-position inside
      #:list-style-type square]
     [a
-     #:padding 0.5em
-     #:font-weight 600]]
+     #:padding 0.5em]]
 
    [.main
-    #:flex (5 0 25em)
+    #:flex (5 1 20em)
     #:padding (0 0.75em)]
 
    [.body-center
@@ -114,6 +118,11 @@
     #:text-align center
     #:padding (0.5em 0)
     [a
+     #:margin 0.5em
+     #:padding 0.2em
+     #:font-family "Source Serif Pro"
+     #:border-radius 0.5em
+     #:background-color \#dff0f0
      #:flex 1
      #:font-weight 600]]
 
@@ -125,5 +134,9 @@
      #:padding 0
      #:margin 0]
     [li
-     #:padding 0.5em]]
+     #:margin 0.5em
+     #:padding (0.5em 0.8em)
+     #:border-radius 0.5em
+     #:font-family "Source Serif Pro"
+     #:background-color \#e0f0c0]]
    ))

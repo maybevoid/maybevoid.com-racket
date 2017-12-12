@@ -10,11 +10,10 @@
    "Maybe Void"
    (div
     @div['class: "navigation"]{
- @a['href: "#"]{Articles} |
- @a['href: "#"]{Blog} |
- @a['href: "#"]{Glossary} |
- @a['href: "#"]{Tags} |
- @a['href: "#"]{About} 
+ @a['href: "#"]{Articles}
+ @a['href: "#"]{Blog}
+ @a['href: "#"]{Topics}
+ @a['href: "#"]{About}
  }
     
     (div
@@ -42,6 +41,10 @@
      (i @p{
  What does it really mean for two things to be
  @a['href: "https://ncatlab.org/nlab/show/equality"]{equal}?
+ })
+
+     (i @p {
+ @a['href: "/what-is-maybevoid"]{What is Maybe Void?}
  }))
     (hr 'class: "divisor")
     (div
